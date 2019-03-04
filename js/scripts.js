@@ -42,6 +42,7 @@ Players.prototype.hold = function() {
     alert(this.playerName + "Please give the next chance to the next player.")
 }
 
+
 //user  interface//
 
 $(document).ready(function() {
@@ -53,11 +54,15 @@ $(document).ready(function() {
      $("#play").hide();
      $(".resume").hide();
      
-    var player1name=("FirstPlayer").valueOf();
-    $("#player1name").text(player1name);
+    $(".new-player").submit(function(event){
+        event.preventDefault();
+        var player1name=$("#first-player").val();
+        $("#player1name").text(player1name);
 
-    var player2name=("SecondPlayer").valueOf();
-    $("#player2name").text(player2name);
+        var player2name=$("#second-player").val();
+        $("#player2name").text(player2name);
+    })
+    
 
     firstPlayer.playername = player1name;
     secondPlayer.playername = player2name;
