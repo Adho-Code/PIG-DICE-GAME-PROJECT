@@ -1,13 +1,9 @@
 body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFEApfUVgiZHQTOAvo_iNcgb1ovt_2yS0C8Zy-ViQm_xfZ_DUhKg");
+    background-image: url("http://3.bp.blogspot.com/-kuJBmvq86OU/Tn9o5vCObNI/AAAAAAAAAP8/HR6z8wN3t_4/s1600/light+color+wallpaper+3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-contact {
-    cursor: pointer;
-    color: #0088cc;
-}
 
 .contact:hover {
     text-decoration: underline;
@@ -70,11 +66,9 @@ margin: 50px;
     margin-left:40%;
     font-family:'Charm',cursive;
 }
-#total-1{
-     border-bottom: 2px solid black;
-     border-top: 2px solid black;
-    
-}
+
+
+
 #total-2{
     border-bottom: 2px solid black;
     border-top: 2px solid black;
