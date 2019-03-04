@@ -3,6 +3,82 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+contact {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+.contact:hover {
+    text-decoration: underline;
+} 
+
 h1{
     text-align: center;
+}
+
+center{
+    display:inline-block;
+}
+
+.container-fluid {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+form {
+margin: 50px;
+}
+.form-group {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#play {
+    margin-left: 45%;
+    font-family: 'ZCOOL Kuaile', cursive;
+    color:blue;
+}
+#reset {
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.game h{
+    font-family: 'charm',cursive;
+    font-size:35px;
+    text-align: center;
+}
+ h2{
+    font-size: 15px;
+    font-family:'charm',cursive;;
+
+}
+
+#hold {
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.content{
+    display: none;
+    position: absolutely;
+    width: 90%;
+    height: 90%;
+}
+
+#new-player h3{
+    margin-left:40%;
+    font-family:'Charm',cursive;
+}
+#total-1{
+     border-bottom: 2px solid black;
+     border-top: 2px solid black;
+    
+}
+#total-2{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.panel.heading h2{
+    color:#BDB246;
 }

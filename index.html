@@ -9,32 +9,84 @@
     <script src="js/scripts.js"></script>
     <title>PIG-DICE-PROJECT</title>
   </head>
+  
   <body>
-        <h1>PIG DICE GAME</h1>
-      <div class="container">
-    <div class="container">
+    <div class="container-fluid">
+        <h1>Welcome to Pig-Dice-Game!!!!!</h>
         <div class="row">
-           <div class="col-md">
-               <div class="Ticket" id="if">
-                   <h2>Instruction to the game</h2>
-                   <p>The player needs to play the game Frequently to get many points sum to a hundered.</p>
+        <form id="new-player">
+        <br>
+        <div class="form-group">
+          <label for"New-Player">First-Player</label>
+          <input type="text" class="form-control" id="first player">
+        </div>
+        <div class="form-group">
+          <label  for="Second player">Second-player</label>
+          <input type="text" class="form-control" id="Second player">
+        </div>
+
+      </form>
+     </div>
+     <button id="play">Get started the Game</button>
+     <div class="content">
+       <div class="row">
+         <div class="col-md-12">
+           <div class="panel panel-default">
+             <div class="panel-heading">
+               <h2>START PIG-DICE-GAME</h2>
+               </div>
+               <div class="panel-body">
+
+                <div class="col-md-3"></div>
+                <div class="Start">
+                  <Label for="">Player 1:</Label>
+                  <h2 id="player1name"></h2>
+
+                  <label for="">Total Score</label>
+                  <h2 id="total-1">0</h2>
+
+                  <label for="">Dice Roll</label>
+                  <h3 id="roll-1">0</h3>
+
+                  <label for="">Round Total</label>
+                  <h3 id="total-roll-1">0</h3>
+
+                </div>
+               </div>
+              
+               <div class="col-md-2">
+                 <button id="rolling" class="btn info-" >ROLL</button>
+                 <button id="hold" class="btn">HOLD</button>
+                 <input id="reset" type="button" class="btn info-btn" value="New Game" onclick="reset()">
+               </div>
+            
+               <div class="col-md-5">
+                 <div class="Game">
+                   <label for="">Player 2:</label>
+                   <h3 id="player2name"></h3>
+
+                   <label for="">Total Points</label>
+                   <h3 id="Total-2">0</h3>
+
+                   <label for="">Dice Roll</label>
+                   <h2 id="dice-roll-2">0</h2>
+
+                   <label for="">Round Total</label>
+                   <h2 id="round-2">0</h2>
+
+                   </div>
+                   </div>
+
+                   </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-            <h1>PLAYER 1</h1>
-            <button onclick="rollDice()">ROLLDICE</button>
-            <button onclick="rollDice()">HOLD IT</button>
-            <div id"demo"></div>
-        </div>
-        <div class="col-md-3">
-          <h1>PLAYER 2</h1>
-          <button onclick="rollDice()">ROLLDICE</button>
-          <button onclick="rollDice()">HOLD IT</button>
-        </div>
-        <div class="col-md-3"></div>
-     </div>
-    </div>
-</body>
-</html>
+         </div>
+  </body>
+
+  </html>
+
+
+               
+            
+            
+        
