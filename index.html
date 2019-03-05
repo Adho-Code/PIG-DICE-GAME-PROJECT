@@ -1,95 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>PIG-DICE-PROJECT</title>
-  </head>
-  
-  <body>
-    <div class="container-fluid">
-        <h1>Welcome to Pig-Dice-Game!!!!!</h>
-        <div class="row">
-        <form class="new-player">
-        <br>
-        <div class="form-group">
-          <label for"New-Player">First-Player</label>
-          <img src="http://www.mobile-phone.pk/images/wallpapers/fighter_animation_hd_mobile_wallpaper.jpg" height=350>
-          <input type="text" class="form-control" id="first-player">
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>PIG-DICE-PROJECT</title>
+</head>
+<body>
+  <div class="container" id="new-player">
+    <h1>Welcome to Pig-Dice-Game!!!!!</h1>
+
+    <div id="list">
+      <h2 id="instruction">INSTRUCTIONS</h2>
+      <div id="list1">
+        <ol style="list-style:none;">
+          <li>The Game has two players.</li>
+          <br>
+          <li>Each player has a turn to play the game.</li>
+          <br>
+          <li>After each player plays the game should see there respective scores.</li>
+          <br>
+          <li>If the Dice rolls one the current player who is playing should give chance to the next player.</li>
+          <br>
+          <li>Once the player gets score 100, the player is winner.</li>
+          <br>
+          <li>If the player holds the dice the point is added.</li>
+          <br>
+          <li>Each player uses the button given below.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <form>
+            <br>
+            <div class="form-group">
+              <p>First-Player</p> 
+              <img height="350" src="http://www.mobile-phone.pk/images/wallpapers/fighter_animation_hd_mobile_wallpaper.jpg"> <input class="form-control" id="first-player" type="text">
+            </div>
         </div>
-        <div class="form-group">
-          <label  for="Second player">Second-player</label>
-          <img src="https://farm2.staticflickr.com/1396/5148903960_23a95a6915.jpg" height=350>
-          <input type="text" class="form-control" id="second-player">
+        <div class="col-md-4">
+            <button id="play" type="submit">Play!!</button>
+          
         </div>
-        <button type="submit" id="play">Play!!</button>
-      </form>
-     </div>
-     
-     <div class="content">
-       <div class="row">
-         <div class="col-md-12">
-
-           <div class="panel panel-default">
-             <div class="panel-heading">
-               <h2>START PIG-DICE-GAME</h2>
-               </div>
-
-
-                <div class="col-md-3"></div>
-                <div class="Start">
-                  <Label for="">Player 1:</Label>
-                  <h2 id="player1name"></h2>
-
-                  <label for="">Total Score</label>
-                  <h2 id="total-1">0</h2>
-
-                  <label for="">Dice Roll</label>
-                  <h3 id="roll-1">0</h3>
-
-                  <label for="">Round Total</label>
-                  <h3 id="total-roll-1">0</h3>
-
-                </div>
-               </div>
-              
-               <div class="col-md-3">
-                 <button id="rolling" class="btn info-" >ROLL</button>
-                 <button id="hold" class="btn info-" >HOLD</button>
-                 <input id="reset" type="button" class="btn info-btn" value="New Game" onclick="reset()">
-               </div>
-            
-               <div class="col-md-5">
-                 <div class="Game">
-                   <label for="">Player 2:</label>
-                   <h3 id="player2name"></h3>
-
-                   <label for="">Total Points</label>
-                   <h3 id="Total-2">0</h3>
-
-                   <label for="">Dice Roll</label>
-                   <h2 id="dice-roll-2">0</h2>
-
-                   <label for="">Round Total</label>
-                   <h2 id="round-2">0</h2>
-
-                   </div>
-                   </div>
-
-                   </div>
+            <div class="col-md-4">
+          <div class="form-group">
+            <p>Second-player</p> 
+            <img height="350" src="https://farm2.staticflickr.com/1396/5148903960_23a95a6915.jpg"> <input class="form-control" id="second-player" type="text">
+          </form>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2>START PIG-DICE-GAME</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="text-center">
+            <div class="Start">
+              <label for="">Player 1:</label>
+              <h2 id="player1name"></h2><label for="">Total Score</label>
+              <h2 id="total-1">0</h2><label for="">Dice Roll</label>
+              <h3 id="roll-1">0</h3><label for="">Round Total</label>
+              <h3 id="total-roll-1">0</h3>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="rolling">ROLL</button> <button class="btn btn-primary" id="hold">HOLD</button> 
+          <input class="btn btn-primary" id="reset" onclick="reset()" type="button" value="New Game">
+        </div>
+        <div class="col-md-6">
+          <div id="adho">
+              <div class="Start">
+                <label for="">Player 2:</label>
+                <h2 id="player2name"></h2><label for="">Total Score</label>
+                <h2 id="total-2">0</h2><label for="">Dice Roll</label>
+                <h2 id="roll-2">0</h2><label for="">Round Total</label>
+                <h2 id="total-roll-2">0</h2>
               </div>
             </div>
-         </div> 
-         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-
-  </html>
-
-
-               
-            
-            
-        
+              <button class="btn btn-primary" id="rolling2">ROLL</button> <button class="btn btn-primary" id="hold2">HOLD</button> <input class="btn btn-primary" id="reset" onclick="reset()" type="button" value="New Game">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script> 
+  <script src="js/scripts.js">
+  </script>
+</body>
+</html>

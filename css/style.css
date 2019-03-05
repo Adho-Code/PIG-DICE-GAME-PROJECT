@@ -1,74 +1,51 @@
 body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRot7K84RXT1HKvKuZvhQcomPJNlRDIcMo8lda-Ba76-wt4n1L4GQ");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmz07N6s0MH9dYKGF-ofntcvhSPgTeYTYLXNIa9e_PaTWDIW2");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+#list{
+    margin-left: 100px;
+    border-radius: 150px;
+    border-color: black;
+    background-color: white;
+    opacity: 10;
+    width: 80%
+    
+
+}
 
 h1{
     text-align: center;
 }
 
-center{
-    display:inline-block;
-}
-
-.container-fluid {
+#new-player {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
+
 }
-form {
-margin: 50px;
-}
-.form-group {
-    margin-right: 30px;
-    margin-left: 30px;
+#text-center, #adho{
+    color:white;
 }
 
 #play {
-    margin-left: 45%;
     font-family: 'ZCOOL Kuaile', cursive;
-    color:blue;
-}
-#reset {
-    margin-top: 200px;
-    margin-left: 40px;
+    color:brown;
 }
 
-.game h{
-    font-family: 'charm',cursive;
-    font-size:35px;
-    text-align: center;
-}
+
  h2{
     font-size: 15px;
     font-family:'charm',cursive;;
-
 }
 
-#hold {
-    margin-left: 45px;
-    margin-top: 50px;
-}
-.content{
-    display: none;
-    position: absolutely;
-    width: 90%;
-    height: 90%;
-}
 
 #new-player h3{
-    margin-left:40%;
     font-family:'Charm',cursive;
 }
 
 
-
-#total-2{
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-}
 .panel.heading h2{
-    color:#BDB246;
+    color:black;
 }
