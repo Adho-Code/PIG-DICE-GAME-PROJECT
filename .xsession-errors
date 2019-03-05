@@ -39,3 +39,77 @@ ATTENTION: default value of option force_s3tc_enable overridden by environment.
 (cinnamon:2027): St-WARNING **: Ignoring length property that isn't a number at line 1526, col 13
 
 (cinnamon:2027): St-WARNING **: Ignoring length property that isn't a number at line 1526, col 13
+[2432:2432:0305/130642.256228:ERROR:gl_surface_presentation_helper.cc(115)] GetVSyncParametersIfAvailable() failed!
+[2432:2432:0305/130642.272791:ERROR:gl_surface_presentation_helper.cc(115)] GetVSyncParametersIfAvailable() failed!
+[2432:2432:0305/130642.289216:ERROR:gl_surface_presentation_helper.cc(115)] GetVSyncParametersIfAvailable() failed!
+[2304:2377:0305/140838.882455:ERROR:connection_factory_impl.cc(403)] Failed to connect to MCS endpoint with error -106
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+
+(nm-applet:2095): nm-applet-CRITICAL **: get_menu_item_for_ap: assertion 'dup_data.hash != NULL' failed
+[2304:2642:0305/140847.737932:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+[2304:2377:0305/141215.517963:ERROR:socket_stream.cc(210)] Closing stream with result -100

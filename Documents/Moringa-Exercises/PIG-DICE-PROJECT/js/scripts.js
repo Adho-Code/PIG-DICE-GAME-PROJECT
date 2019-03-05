@@ -2,6 +2,8 @@
 
 var firstPlayer = "player1";
 var secondPlayer = "player2";
+var player1name = "";
+var player2name = "";
 
 var dice = function() {
     var numbers = [1,2,3,4,5,6];
@@ -36,7 +38,6 @@ Players.prototype.roll= function() {
 Players.prototype.hold = function() {
     this.totalScore += this.roundTotal;
     this.roundTotal= 0;
-    alert("Please give the next chance to the next player.");
 }
 
 //user  interface//
@@ -49,10 +50,10 @@ $(document).ready(function() {
   $()
      $(".content").show();
      $("#new-player").hide();
-    var player1name=("firstPlayer").valueOf();
+    player1name=$("#first-player").val();
     $("#player1name").text(player1name);
 
-    var player2name=("secondPlayer").valueOf();
+    player2name=$("#second-player").val();
     $("#player2name").text(player2name);
 
     firstPlayer.playername = player1name;
@@ -69,9 +70,14 @@ $(document).ready(function() {
     
     $("button#hold").click(function() {
         firstPlayer.hold();
-        $("#total-1").text(firstPlayer.totalScore);
-        $("total-roll-1").empty();
-        $("#roll-1").empty();
+        if (firstPlayer.totalScore >=100) {
+            alert(player1name + " is the winner");
+        } else {
+            alert("Please give the next chance to the next player.");
+            $("#total-1").text(firstPlayer.totalScore);
+            $("total-roll-1").empty();
+            $("#roll-1").empty();
+        }
     });
    
     $("button#rolling2").click(function() {
@@ -83,9 +89,14 @@ $(document).ready(function() {
 
     $("button#hold2").click(function() {
         secondPlayer.hold();
-        $("#total-2").text(secondPlayer.totalScore);
-        $("total-roll-2").empty();
-        $("#roll-2").empty();
+        if (secondPlayer.totalScore >=100) {
+            alert(player2name + " is the winner");
+        } else {
+            alert("Please give the next chance to the next player.");
+            $("#total-2").text(secondPlayer.totalScore);
+            $("total-roll-2").empty();
+            $("#roll-2").empty();
+        }
     });
 
   });

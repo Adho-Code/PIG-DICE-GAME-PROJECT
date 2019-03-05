@@ -22,3 +22,15 @@ fatal: no upstream configured for branch 'Adho'
 > git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
 > git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/css/style.css
 > git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :.config/Code/User/settings.json
+> git check-ignore -z --stdin
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js

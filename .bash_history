@@ -657,3 +657,9 @@ git checkout development
 git status
 git pull https://github.com/adhoadhi/Housify.git
 code .
+git add .
+git commit -m "added changes to the style"
+git push project https://github.com/adhoadhi/PIG-DICE-GAME-PROJECT.git
+git add .
+git commit - m"added changes to html and scripts"
+git commit- m"added changes to html and scripts"
