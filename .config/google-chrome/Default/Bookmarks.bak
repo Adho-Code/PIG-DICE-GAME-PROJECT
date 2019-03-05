@@ -1,0 +1,81 @@
+{
+   "checksum": "b40619848637809d4048fdb852f6a1d5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13193085413941799",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13196189046540282"
+            },
+            "name": "Inbox - adhoadhigal@gmail.com - Gmail",
+            "sync_transaction_version": "177",
+            "type": "url",
+            "url": "https://mail.google.com/mail/?pc=topnav-about-en#inbox"
+         }, {
+            "date_added": "13193085486614515",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13195733344370024"
+            },
+            "name": "W3Schools Online Web Tutorials",
+            "sync_transaction_version": "168",
+            "type": "url",
+            "url": "https://www.w3schools.com/"
+         }, {
+            "date_added": "13194127172793594",
+            "id": "27",
+            "meta_info": {
+               "last_visited_desktop": "13195981311385925"
+            },
+            "name": "adhoadhi/test",
+            "sync_transaction_version": "173",
+            "type": "url",
+            "url": "https://github.com/adhoadhi/test"
+         }, {
+            "date_added": "13195120714681944",
+            "id": "29",
+            "meta_info": {
+               "last_visited_desktop": "13196016205896153"
+            },
+            "name": "dom-visual-reference.png",
+            "sync_transaction_version": "174",
+            "type": "url",
+            "url": "https://moringaschool.instructure.com/courses/14/files/1708/preview"
+         } ],
+         "date_added": "13194085292614032",
+         "date_modified": "13195120714681944",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13194123223172984",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13196189046622143"
+            },
+            "name": "Inbox - adhoadhigal@gmail.com - Gmail",
+            "sync_transaction_version": "179",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?pc=topnav-about-en#inbox"
+         } ],
+         "date_added": "13194085292614037",
+         "date_modified": "13194123223172984",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "179",
+      "synced": {
+         "children": [  ],
+         "date_added": "13194085292614041",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

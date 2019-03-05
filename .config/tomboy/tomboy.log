@@ -1,0 +1,7 @@
+2/26/2019 8:30:21 PM [INFO]: Initializing Mono.Addins
+2/26/2019 8:30:22 PM [INFO]: Monitor number returned by GetMonitorAtPoint (actual) is: 0
+2/26/2019 8:30:22 PM [INFO]: Saved monitor number is: 0
+2/26/2019 8:30:22 PM [INFO]: Saved Search window position is 448 x 162
+2/26/2019 8:30:22 PM [INFO]: Saved monitor number does match the actual one...
+2/26/2019 8:30:22 PM [INFO]: ...and saved window position is within it - restoring as-is.
+2/26/2019 8:30:22 PM [INFO]: Restoring Search window to position 448 x 162 at monitor 0

@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmz07N6s0MH9dYKGF-ofntcvhSPgTeYTYLXNIa9e_PaTWDIW2");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#new-player {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#text-center, #adho{
+    color:white;
+}
+
+#play {
+    font-family: 'ZCOOL Kuaile', cursive;
+    color:brown;
+}
+
+
+ h2{
+    font-size: 15px;
+    font-family:'charm',cursive;;
+}
+
+
+#new-player h3{
+    font-family:'Charm',cursive;
+}
+
+
+.panel.heading h2{
+    color:black;
+}

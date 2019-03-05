@@ -1,15 +1,79 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-    <script src="js/jquery-3.3.1.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="js/scripts.js"></script>
-    <title>PIG-DICE-PROJECT</title>
-  </head>
-  <body>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>PIG-DICE-PROJECT</title>
+</head>
+<body>
+  <div class="container" id="new-player">
+    <h1>Welcome to Pig-Dice-Game!!!!!</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <form>
+            <br>
+            <div class="form-group">
+              <p>First-Player</p> 
+              <img height="350" src="http://www.mobile-phone.pk/images/wallpapers/fighter_animation_hd_mobile_wallpaper.jpg"> <input class="form-control" id="first-player" type="text">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <button id="play" type="submit">Play!!</button>
+          </form>
+        </div>
+            <div class="col-md-4">
+          <div class="form-group">
+            <p>Second-player</p> 
+            <img height="350" src="https://farm2.staticflickr.com/1396/5148903960_23a95a6915.jpg"> <input class="form-control" id="second-player" type="text">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2>START PIG-DICE-GAME</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="text-center">
+            <div class="Start">
+              <label for="">Player 1:</label>
+              <h2 id="player1name"></h2><label for="">Total Score</label>
+              <h2 id="total-1">0</h2><label for="">Dice Roll</label>
+              <h3 id="roll-1">0</h3><label for="">Round Total</label>
+              <h3 id="total-roll-1">0</h3>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="rolling">ROLL</button> <button class="btn btn-primary" id="hold">HOLD</button> 
+          <input class="btn btn-primary" id="reset" onclick="reset()" type="button" value="New Game">
+        </div>
+        <div class="col-md-6">
+          <div id="adho">
+              <div class="Start">
+                <label for="">Player 2:</label>
+                <h2 id="player2name"></h2><label for="">Total Score</label>
+                <h2 id="total-2">0</h2><label for="">Dice Roll</label>
+                <h2 id="roll-2">0</h2><label for="">Round Total</label>
+                <h2 id="total-roll-2">0</h2>
+              </div>
+            </div>
+              <button class="btn btn-primary" id="rolling2">ROLL</button> <button class="btn btn-primary" id="hold2">HOLD</button> <input class="btn btn-primary" id="reset" onclick="reset()" type="button" value="New Game">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script> 
+  <script src="js/scripts.js">
+  </script>
+</body>
+</html>

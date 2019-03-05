@@ -1,0 +1,15 @@
+[03/05/19, 08:11:44:708] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/05/19, 08:11:44:709] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 03/05/19, 08:11:44:706      ║
+[03/05/19, 08:11:44:709] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/05/19, 08:11:44:789] info: Initializing local storage instance at path: /home/adho/.config/Slack/local-settings.json
+[03/05/19, 08:11:45:357] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[03/05/19, 08:11:45:359] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[03/05/19, 08:11:47:841] info: Store: SET_NETWORK_STATUS online
+[03/05/19, 08:11:53:175] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T077KKCG6"
+}
+[03/05/19, 08:11:53:180] info: Store: MAIN_WINDOW_SHOWN
+[03/05/19, 08:11:53:196] info: Store: SET_FULL_SCREEN

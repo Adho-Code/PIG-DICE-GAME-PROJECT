@@ -1,0 +1,87 @@
+.container {
+    font-family: Inconsolata, monospace;
+    font-size: 1.5em;
+    color: rgb(139,0,0);
+    font-size: 1.5em;
+    font-family: 'Nova Flat', cursive;
+    padding-top: 0;
+    top: 0;
+}
+nav{
+    background-color: azure;
+    padding: 1em;
+    margin-top: 0;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: black;
+}
+nav a:hover{
+    color: rgb(139,0,0);
+}
+#home{
+    background-image: url('../images/coder.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#home h1,p{
+    padding: 2em;
+}
+#about-me{
+    background-color: azure;
+    padding-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+#profile {
+    padding-left: 3em;
+    padding-right: 10em;    
+}
+#profile ul,ol{
+    text-align: left;
+}
+#image img{
+    padding-top: 2em;
+    width: 20em;
+    border: 1px;
+    border-radius:65px;
+}
+footer{
+    background-color: azure;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    color: rgb(139,0,0);
+    padding: 1em 1em 0.5em 1em;
+}
+#icons img{
+    padding-left: 6em;
+}
+#projects{
+    background-color: black;
+    color: azure;
+    padding-top:1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    
+}
+#projects a{
+    text-decoration: underline;
+    color: azure;    
+}
+#projects a p{
+    float: left;
+}
+#projects img{
+    width:15em;
+}

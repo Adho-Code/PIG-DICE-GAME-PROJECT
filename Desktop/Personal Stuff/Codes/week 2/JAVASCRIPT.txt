@@ -1,0 +1,293 @@
+﻿WEEK 2:Arithmetic
+Now that you have the basics of HTML and CSS under your belt, we're going to start learning our first programming language: JavaScript. Remember, web browsers can only do three things: display content with HTML, style it with CSS, and change what's displayed with JavaScript. Because all browsers support JavaScript, it's the de facto programming language of the web. 
+We're going to take a detour away from the aesthetically pleasing and obviously useful world of web pages, so that we can learn some programming fundamentals. But don't worry! We'll be back in no time. 
+Like earlier, I'm going to assume you're using Google Chrome for these lessons. Chrome includes a nice little console that lets you type in JavaScript code. To access it, click on the ☰ button, go to the More Tools menu, and click Developer Tools. Go to the Console tab on the window that pops up at the bottom of the screen. As a shortcut, you can also press Cmd + Option + J on a Mac or Ctrl + Shift + I on a PC. 
+Here at the > prompt, you can type JavaScript and see what it does. Try typing 1 + 2; and pressing Enter. 
+Congratulations! You just ran your first JavaScript code. 
+You should see something like: 
+Don't you dare copy & paste!
+> 1 + 2;
+3
+JavaScript took your code 1 + 2 evaluated it, and returned the result: 3. 
+The semicolon at the end of the line tells JavaScript to run everything before it. You'd think JavaScript would know on its own, wouldn't you? 
+Now try these:
+4 - 3;
+5 * 6;
+10 / 2;
+9 / 2;
+7 + 8 * 9;
+(7 + 8) * 9;
+Try some other arithmetic yourself. Play around with the % operator, called modulo. It will give you the remainder of dividing two numbers. Don't be fooled into thinking it has something to do with percentages! +,-,*,/, and % are called operators. An operator is a special character (or characters) that indicates an action to be performed. Try dividing 0 by 0. The result, NaN, stands for not a number. In JavaScript, NaN is actually considered a type of number (bizarre as that may seem). Try dividing any other number by 0. The result, Infinity, is also a number in JavaScript.
+Arithmetic
+Goal: In the previous lesson, we learned:
+How to access the JavaScript Console
+Addition, subtraction, multiplication, and division using JavaScript
+How to use the % operator
+NaN means not a number but is actually considered a type of number
+Begin getting comfortable with these concepts by completing the practice exercises listed below. Soon enough, they'll be second nature!
+Warm Up
+Make sure you understand the following before moving on:
+What is the % operator? How is the action it performs different than simply dividing?
+How can we access the JavaScript console?
+When might we see NaN?
+Code
+Complete the following exercises to practice arithmetic in JavaScript:
+Add:
+77 to 99
+34 to 1233
+-53 to 99
+9,092 to -12312
+943,456,575 to 39,087,092,348,570
+Subtract:
+99 from 665
+34 to 1233
+555 from 23
+7,912 from 88888
+6,348,709,234 from 87,023,984,709,871,234.
+Multiply:
+89 and 54
+932 and 1,900
+-34 and 8
+25 and 700
+Divide:
+1008 by 7
+23423 by 75
+90 by 3
+9,870,834,205,987 by 324
+A number by 0.
+0 by 0.
+Find the remainder of dividing the following numbers:
+1008 by 7
+23423 by 75
+90 by 3
+9,870,834,205,987 by 324
+Variables
+In the last lesson, when we wanted to add numbers together, we simply typed the numbers and added them. Now try this in the JavaScript console:
+> var myNumber = 3;
+undefined
+> myNumber;
+3
+In the code we typed above, myNumber is a variable that we set equal to 3. A variable is sort of like a container for storing values. You can almost read the code aloud: "Variable myNumber is equal to 3". Let's break down the above statement and look at each part:
+var stands for "variable", and is the JavaScript keyword that creates a variable for us.
+myNumber is the name that we gave the variable
+= is an assignment operator, meaning that it sets the value on the left side equal to the right side. It does not compare the two sides - we'll learn how to do this in an upcoming lesson
+3 is the value that we assign to the variable
+Once we set a variable equal to a value, we can use it just like the value. When we create a variable with a value like this, we say that we have declared the variable.
+Here are some things we can do with variables. We can do arithmetic on the variable:
+> myNumber + 5;
+8
+> myNumber + myNumber;
+6
+Note that the value of a variable does not change when we do arithmetic on it. However, we can change the value of a variable once it has been set by using = , like this:
+> myNumber = 9;
+
+9
+> myNumber;
+9
+We can even use the variable to change its own value:
+> myNumber;
+9
+> myNumber = myNumber + 1;
+10
+> myNumber;
+10
+We can also use more than one variable at a time:
+> var firstNumber = 5;
+undefined
+> var secondNumber = 8;
+undefined
+> var thirdNumber = firstNumber + secondNumber;
+undefined
+> thirdNumber;
+13
+For now, don't worry about the word undefined that prints to the console. When we declare a variable in this way, it does not actually evaluate to anything, so the return value is undefined.
+Naming Conventions
+In JavaScript, it’s conventional to give variables names that start with a lowercase letter, and if the name has more than one word, to capitalize each word after the first, without spaces or punctuation (such as hyphens - or underscores _) between words. This capitalization style is called lower camelcase, named after the humps of a camel.
+Here are some examples of good and bad naming:
+The first letter of a variable must be lower case.
+lowerCamelCase: Good!
+NotLowerCamelCase: Bad - the first letter here is capitalized. This capitalization style is sometimes called upper camel case or Pascal case.
+Variables should begin with a letter.
+firstNumber: Good!
+1stNumber: Bad - the first character here is a 1.
+Variables are case-sensitive
+myNumber is a different variable than myNUMBER
+Use clear names that describe the value being stored.
+myNumber: Good! This variable tells us that it a specific number.
+x: Bad - this variable name does not tell us anything about what it represents. For example: var x = 45 doesn't tell us much about the value. Is 45 an age, a distance, a size, a time?
+num: Bad - it's possible that num here refers to the word "number", but abbreviations can be difficult for others (or even yourself).
+Code
+Here are a few exercises for you to practice using variables:
+Set a variable called someName equal to your name. Put your name in quotation marks.
+Display the value of someName in the console.
+Change the value of someName.
+Set a variable called favoriteNumber equal to your favorite number.
+Calculate what your favorite number divided by 2 is.
+Set another variable called michaelsFavorite equal to 13.
+Change the value of michaelsFavorite to 7.
+Subtract your favorite number from Michael's favorite.
+Change the value of Michael's favorite number to be 26 times its current value.
+Strings
+We’ve done some work with numbers. Now let’s work with words!
+> "Hello world"
+"Hello world"
+A series of characters inside of quotation marks, like Hello world above, is called a string. Strings can contain any number of letters, punctuation, and even numbers. Let's see a few more:
+> "12345"
+"12345"
+> "Hello, world!"
+"Hello, world!"
+> "Isn't learning fun? :)"
+"Isn't learning fun? :)"
+What happens when we use a series of characters without the quotation marks?
+> hello
+Uncaught ReferenceError: hello is not defined
+The console is telling us that it doesn't know what we mean with hello without the quotation marks. Without quotation marks, JavaScript sees hello as a variable, which has not been defined yet.
+We can declare a variable as a string:
+> var hello = "Hello world!"
+undefined
+> hello
+"Hello world!"
+You may be wondering how we can have a string that contains quotation marks, since quotation marks are used to enclose strings. We can do this in a couple of ways.
+Here is the first option:
+> "Someone once told me, \"Any sufficiently advanced technology is indistinguishable from magic.\""
+Code
+Type a greeting to your best friend.
+Set a variable equal to a string and then display the variable's contents
+What happens when you add the string "9" to the number 9? Make sure you're clear on the difference between "9" with quotes and 9 without.
+Methods
+Okay, we've learned some of the basics of numbers and strings. In this lesson, we will learn how to do some things to them with JavaScript.
+Let's start by printing something to the JavaScript console:
+> console.log("Hello from the JavaScript console!");
+Hello from the JavaScript console!
+console.log is called a method. A method is an action that is taken on something. In this case, it takes an action on the JavaScript console: it logs whatever we put inside of the parenthesis to the console. We can log anything to the console. We just used it with a string, but we can also use it with numbers:
+> console.log(34);
+34
+Expressions:
+> console.log(5*4);
+20
+Even variables:
+> var greeting = "Hello";
+undefined
+> console.log(greeting);
+Hello
+The part of the method inside of the parenthesis is called an argument. Arguments give methods more information about what they are supposed to do. In the case of console.log, the argument is what we want to print to the console.
+Because we can use console.log to print anything to the screen, it comes in handy a lot. We will soon see how we can use it to troubleshoot our code.
+Methods with Numbers
+Now let's round a number to the nearest whole number using toFixed:
+> 737.255342.toFixed();
+"737"
+When we use a toFixed like this, we are asking JavaScript to look at the number the method is attached to and evaluate it, and then give a response. In this case, the response is "737", which is the method's return value.
+We can also round a number to a certain number of decimal points using toFixed like this:
+> 3.58494.toFixed(0);
+"4"
+> 3.58494.toFixed(2);
+"3.58"
+> 3.58494.toFixed(4);
+"3.5849"
+> 3.58494.toFixed(6);
+"3.584940"
+This time, when we used toFixed, we gave it a number as its argument, and the method rounded our number to that number of decimal points. In the case of toFixed, the argument is optional, because toFixed has default behavior if no arguments are passed in. Even when arguments are optional, or when a method doesn't take an argument, we still need the parenthesis on the end to tell JavaScript that it is a method.
+Notice that the return value for toFixed is in quotation marks, which means that the value is a string, not a number. We'll go more into detail about why strings and numbers are different in an upcoming lesson.
+Now let's look at a method that will change a number to exponential notation. Exponential notation is essentially a way of simplifying really large and really small numbers ("really small" means less than 1 here) with multiples of 10. In case you're unfamiliar with exponential notation, here's an example of how it works. The number 25 in exponential notation is 2.5 * 10, because 2.5 times 10 is 25. The number 786 in exponential notation is 7.86 * 10^2, because 10^2 is the same thing as 10 times 10 which is 100, so 7.86 * 100 = 786. Another way of writing this in exponential notation is 7.86e+2. Don't worry too much about grasping exponential notation right now if this is a new concept - the point here is that we are going to use JavaScript to find a number in exponential notation for us.
+> 98.4.toExponential();
+"9.84e+1"
+> 1000000000.0.toExponential();
+"1e+9"
+> 0.045.toExponential();
+4.5e-2
+toExponential can take arguments, too. You can provide a number to tell JavaScript how many decimal points you would like it to round the number to:
+> 2327948.218739.toExponential(3);
+"2.328e+6"
+> 899.0.toExponential(1);
+"9.0e+2"
+We can call methods on variables, too. After all, variables simply stand in for other values. For example, let's look at another method, toString, which returns a number as a string:
+> var twentyFive = 25;
+undefined
+> twentyFive.toString();
+"25"
+Note that it does not actually convert the variable to a string; it simply returns a string. For example:
+> var sevenHundredEightyNine = 789;
+undefined
+> sevenHundredEightyNine.toString();
+"789"
+> sevenHundredEightyNine;
+789
+> "I love JavaScript".toUpperCase();
+"I LOVE JAVASCRIPT"
+Just like with numbers, we can call these methods on variables that represent strings:
+> var statement = "LOREM IPSUM";
+undefined
+> statement.toLowerCase();
+"lorem ipsum"
+We can combine strings:
+> "pine".concat("apple");
+"pineapple"
+concat stands for "concatenate", which means that it combines the strings into one. Here's a shortcut for the .concat() method:
+> "example " + "here"
+"example here"
+We can even chain methods together. Here's what that looks like:
+"I am ".concat("so excited").toUpperCase();
+"I AM SO EXCITED"
+The return value of the first part of the above example, "I am ".concat("so excited"), is a string ("I am so excited"), so we can use the string method toUpperCase on it.
+String methods can take arguments just like number methods. Here's an example:
+> "spider".charAt(1);
+"p"
+charAt means "character at", and it returns the character at the position in the string that we've specified with the argument. The character at position 1 of "spider" is "p" - does that seem strange? With how we would normally count, the first character would be "s". However, computers count a little differently, and start at 0. So, if we want the first letter of a string, we ask for the character at position 0, like this:
+> "spider".charAt(0);
+"s"
+We aren't restricted to using numbers as arguments. Arguments can be anything that the method will use to do an action. Some methods take strings as an argument:
+> var stringToSearch = "Please show me where 'show' is located!";
+undefined
+> stringToSearch.search("show");
+7
+Can you see what the search method does? It returns the position in a string of the first letter of the string in the argument.
+Some methods take multiple arguments:
+> var fruitList = "papaya, melon, avocado";
+undefined
+> fruitList.slice(8, 13);
+"melon"
+The .slice() method extracts a part of a string and returns that part in a new string. It takes 2 arguments: the starting position and the ending position. In our example, we wanted the portion of fruitList that start at position 8 and ends at position 13, and the method returned "melon".
+ode
+Practice calling methods on strings:
+Set a variable equal to a string
+Call a method on that variable.
+Set another variable with a string in all uppercase.
+Use the concat method with your two variables.
+Now concatenate them with the shortcut.
+Use the toUpperCase method on your first variable.
+Now use the toLowerCase method on your second variable.
+Find the character at the 3rd position of either of your variables.
+Data Types
+Goal: In the Data Types lesson, we learned:
+5 data types - number, string, boolean, undefined, null
+Methods are generally specific to a data type
+How to use typeof to check data type
+How to use parseInt() and .toString() to convert between numbers and strings
+
+Functions
+So far, none of the JavaScript we've written has allowed us to actually interact with the browser. Let’s write some now in the JavaScript console:
+> alert("Hey there!");
+As soon as we hit Enter, a dialog box pops up that says "Hey there!".
+alert() is something called a function. Like a method, a function is something that performs an action. Functions are different from methods because they are called by themselves, whereas methods are actions that are called on something. For example, when we call 3.5.toFixed(), we are calling the .toFixed() method on the number 3.5. When we call alert("Hey there!"), it stands by itself. Like methods, functions can take arguments. The argument above was "Hey there!"
+Here's another JavaScript function that takes an argument:
+> prompt("What is your favorite planet?"); // I'm going to type "Earth"
+"Earth"
+Try it out: hitting Enter on the prompt() function opens a dialog box containing a box where you can enter some text.
+The // in the above code sample is the start of a comment, which is text in your code that is ignored by the computer. Comments are a convenient way to leave notes to yourself or other programmers to make your code easier to read or understand. In the above example, I used a comment to let you know that I typed "Earth" in the dialog box, which is why "Earth" printed on the next line.
+"Earth" prints on the next line because the prompt() function returns your response. Here's a useful way we can use a return statement:
+> var mySchool = prompt("Where do you go to school?"); // I'm going to type "Moringa School"
+undefined
+> mySchool;
+"Moringa School"
+Here, we created a variable named mySchool and set it equal to whatever the user types in the box.
+The return statement is a string, so we can use it in the same way that we use a string:
+> prompt("Are you ready to code?").toUpperCase(); // I'm going to type "yes!"
+"YES!"
+Another built-in function that lets the browser interact with the user is confirm(), which also takes a string as an argument:
+> confirm("Would you like to continue?"); // I am going to press the OK button
+true
+Try it again for yourself. This time press the Cancel button, and notice that it returns the false boolean value.
+It is good to be conscious of what arguments a function takes, and what data type it returns. Here is a table showing that information for the three built-in functions introduced in this lesson:
+
+The alert() function does not return anything useful, which is fine because you would just use it to display some information to the user - it is a way of outputting information, not of collecting information. On the other hand, you would want to somehow collect the user's response to the prompt() or confirm() functions - likely by assigning the returned value to a variable as demonstrated above with var mySchool = prompt("Where do you go to school?");. That way you can actually do something with the inputted information rather than just ignoring it.
+

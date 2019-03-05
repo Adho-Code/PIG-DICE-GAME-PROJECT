@@ -1,0 +1,29 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/adho
+> git status -z -u
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse Adho
+> git rev-parse --symbolic-full-name Adho@{u}
+fatal: no upstream configured for branch 'Adho'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/js/scripts.js
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git check-ignore -z --stdin
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/css/style.css
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/css/style.css
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/css/style.css
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/css/style.css
+> git show :Documents/Moringa-Exercises/PIG-DICE-PROJECT/index.html

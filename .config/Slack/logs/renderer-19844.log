@@ -1,0 +1,31 @@
+[02/21/19, 10:53:26:038] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[02/21/19, 10:53:26:038] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 02/21/19, 10:53:26:035      ║
+[02/21/19, 10:53:26:038] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[02/21/19, 10:53:26:124] info: Initializing local storage instance at path: /home/adho/.config/Slack/local-settings.json
+[02/21/19, 10:53:26:642] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[02/21/19, 10:53:26:644] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[02/21/19, 10:53:38:216] info: Store: SET_NETWORK_STATUS online
+[02/21/19, 10:53:53:243] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:54:343] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:54:772] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:55:060] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:55:551] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:55:854] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:56:989] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:57:288] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:58:154] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:58:445] info: Store: FOREGROUND_APP
+[02/21/19, 10:53:59:003] info: Store: FOREGROUND_APP
+[02/21/19, 10:55:22:379] info: Store: FOREGROUND_APP
+[02/21/19, 10:55:22:929] info: Store: FOREGROUND_APP
+[02/21/19, 10:55:23:218] info: Store: FOREGROUND_APP
+[02/21/19, 10:55:45:192] info: Store: FOREGROUND_APP
+[02/21/19, 10:55:46:634] info: Store: FOREGROUND_APP
+[02/21/19, 10:58:49:804] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T077KKCG6"
+}
+[02/21/19, 10:58:49:812] info: Store: MAIN_WINDOW_SHOWN
+[02/21/19, 10:58:49:834] info: Store: SET_FULL_SCREEN

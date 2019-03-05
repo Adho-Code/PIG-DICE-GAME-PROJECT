@@ -1,0 +1,41 @@
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+Cjs-Message: JS LOG: About to start Cinnamon
+St-Message: cogl npot texture sizes SUPPORTED
+Cjs-Message: JS LOG: Cinnamon started at Tue Mar 05 2019 12:43:30 GMT+0300 (EAT)
+** Message: nemo-desktop: session is cinnamon, establishing proxy
+Cjs-Message: JS LOG: network applet: Cannot find connection for active (or connection cannot be read)
+
+(cinnamon:2027): St-WARNING **: Ignoring length property that isn't a number at line 1526, col 13
+openGL version 4.5 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+failed to create drawable
+failed to create drawable
+Cjs-Message: JS LOG: Invalid network device type, is 14
+Cjs-Message: JS LOG: network applet: Found connection for active
+
+(blueberry-tray.py:2222): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Nemo-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: mkdir failed on directory /var/run/samba/msg.lock: Permission denied
+net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+mintUpdate: no process found
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[2304:2377:0305/124408.084602:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.084676:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.084795:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.084844:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.084893:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.085035:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.085087:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.205427:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.205698:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.205996:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.206246:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.206489:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.207413:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+[2304:2377:0305/124408.207540:ERROR:service_manager_context.cc(250)] Attempting to run unsupported native service: /opt/google/chrome/chrome_renderer.service
+
+(cinnamon:2027): St-WARNING **: Ignoring length property that isn't a number at line 1526, col 13
+
+(cinnamon:2027): St-WARNING **: Ignoring length property that isn't a number at line 1526, col 13
